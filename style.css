@@ -42,7 +42,21 @@
     height: 3rem;
     width: 3rem;
     margin-bottom: 1rem;
-    border: 2px solid black;
+    border: 1px solid black;
+}
+
+.score {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+}
+
+.score-peg {
+    height: .5rem;
+    width: .5rem;
+    border: 2px solid grey;
+    border-radius: .5rem;
 }
 
 .red {
