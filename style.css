@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+.board {
+    max-width: 18rem;
+}
+
 .row {
     display: flex;
     flex-direction: row;
@@ -18,6 +22,57 @@
     margin-bottom: .5rem;
 }
 
-.board {
-    max-width: 16rem;
+.pool {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.peg-select {
+    border: 1px solid black;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 3rem;
+}
+
+.answer {
+    display: flex;
+}
+
+.answer-peg {
+    height: 3rem;
+    width: 3rem;
+    margin-bottom: 1rem;
+    border: 2px solid black;
+}
+
+.red {
+    background-color: rgb(176, 11, 11);
+}
+
+.green {
+    background-color: rgb(41, 125, 77);
+}
+
+.blue {
+    background-color: rgb(22, 22, 174);
+}
+
+.yellow {
+    background-color: rgb(247, 218, 56);
+}
+
+.pink {
+    background-color: rgb(242, 127, 146);
+}
+
+.purple {
+    background-color: rgb(97, 1, 97);
+}
+
+.white {
+    background-color: white;
+}
+
+.black {
+    background-color: black;
 }
