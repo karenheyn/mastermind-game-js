@@ -1,0 +1,17 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.peg {
+    border: 1px solid black;
+    height: 40px;
+    width: 40px;
+}
